@@ -34,7 +34,7 @@ class App extends Component {
 
     return (
       <div className={css.box}>
-        <Section title="Please leave feedback">
+        <Section title="Please, leave feedback:">
           <FeedbackOptions
             options={options}
             onLeaveFeedback={this.onLeaveFeedback}
